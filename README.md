@@ -1,0 +1,2 @@
+# kamasushiweb
+GitHub Pages
