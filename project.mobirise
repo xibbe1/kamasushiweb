@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-07-12_2254",
+    "name": "NewSite-07-14_2125",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -21,8 +21,10 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 12,
-    "versionPublish": "3.11.1"
+    "uniqCompNum": 3,
+    "versionPublish": "3.11.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -36,190 +38,140 @@
       },
       "components": [
         {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
             },
-            "H3": {
-              "font-size": "80px"
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.8rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.866rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-5",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1",
           "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff",
-            "showMeta": true
+            "bgColor": "#282828",
+            "fontSize": "0.8",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
           },
-          "title": "• KAMA SUSHI •",
-          "meta": "Västra Sjögatan 13 &amp;&nbsp;Storgatan 22&nbsp;Kalmar<br>"
-        },
-        {
-          "_inherit": "gallery1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery4",
-          "_params": {
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "images": [
-              {
-                "tags": "Share food",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Share food",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Sushi",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": " Sushi ",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": true
-              },
-              {
-                "tags": "Lunch",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2000x1335-800x534.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-2000x1335.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Vegan",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-4-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Share food",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-5-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-5-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Vegan",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333-800x533.jpg",
-                "image": "@PROJECT_PATH@/assets/images/mbr-6-2000x1333.jpg",
-                "caption": "Type caption here",
-                "active": false
-              }
-            ],
-            "spacing": 1,
-            "showText": false,
-            "filter": true,
-            "bgColor": "fff",
-            "filterBgColor": false,
-            "fullWidth": false,
-            "showBullets": true
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/rect4634-510x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
           },
-          "_anchor": "gallery4-0",
-          "articleLayout": false,
-          "allItem": "Meny"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://xibbe1.github.io/kamasushiweb1/\">TAKE AWAY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">RESTAURANG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-2\">KONTAKTA OSS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "form1",
-          "_anchor": "form1-3",
+          "_name": "slider3",
           "_params": {
-            "labelsColor": "#232323",
+            "autoplay": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": false
-          },
-          "title": "RESERVERA BORD",
-          "subtitle": "Boka et",
-          "form": {
-            "action": "xibbe23@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Namn*"
+            "timeout": "6",
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/-dsc8886-2000x1334.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=VcNOUqCq_nU",
+                "overlay": true,
+                "overlayOpacity": "0.8",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "KAMA SUSHI",
+                "showText": true,
+                "text": "Historia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex sapien, porttitor a tincidunt at, vestibulum non nibh. Nulla dapibus rutrum pulvinar.",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
               },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Telefonnummer"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Meddelande"
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/-dsc8976-2000x1334.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=VcNOUqCq_nU",
+                "overlay": true,
+                "overlayOpacity": "0.8",
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "KAMA SUSHI",
+                "showText": true,
+                "text": "Historia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex sapien, porttitor a tincidunt at, vestibulum non nibh. Nulla dapibus rutrum pulvinar.",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
               }
-            }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SKICKA</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "font-size": "48px"
-            }
-          }
+          "_anchor": "slider3-0",
+          "articleLayout": false
         },
         {
           "_tags": [
@@ -239,19 +191,14 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
             "googleMap": {
-              "address": "Kalmar",
-              "placeId": "ChIJGyV4pxzMV0YRYJDkQfP-AAQ",
+              "address": "Västra Sjögatan 13, 392 32 Kalmar",
+              "placeId": "ChIJF0ApSWTRV0YR0vxXIh2GLZw",
               "state": "ok",
               "stateDetails": ""
             }
           },
-          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br><br><strong>Kontakt</strong><br>\nEmail: support@gmail.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text2": "<strong>Länkar</strong><ul><li>Facebook</li><li>For Windows</li><li>For Mac</li></ul>",
-          "_styles": {
-            "STRONG": {
-              "font-size": "16px"
-            }
-          }
+          "text1": "<strong>Address</strong><br>Västra Sjögatan 13<br>392 32 Kalmar<br><br><br>\n<strong>Kontakta oss</strong><br>\nEmail: support@gmail.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Länkar</b></span></font><br><ul><li>Facebook</li><br></ul>"
         }
       ]
     }
