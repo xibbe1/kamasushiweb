@@ -163,7 +163,7 @@
                 "showText": true,
                 "text": "Historia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex sapien, porttitor a tincidunt at, vestibulum non nibh. Nulla dapibus rutrum pulvinar.",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
               }
             ],
             "fullScreen": true,
