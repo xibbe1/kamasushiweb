@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 
 
 
@@ -471,4 +472,12 @@ h6,
 #ext_menu-1 .link[aria-expanded="true"],
 #ext_menu-1 .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
+}
+#slider3-0 P {
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-size: 19px;
+}
+#slider3-0 H2 {
+  font-size: 80px;
 }

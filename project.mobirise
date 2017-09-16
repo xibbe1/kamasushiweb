@@ -17,12 +17,13 @@
         "textFont": "Raleway",
         "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": false
+        "isScrollToTopButton": false,
+        "isRtl": false
       }
     },
     "versionFirst": "3.11.1",
     "uniqCompNum": 3,
-    "versionPublish": "3.11.1",
+    "versionPublish": "4.3.0",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -93,17 +94,17 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1",
           "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#282828",
             "fontSize": "0.8",
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
@@ -131,8 +132,11 @@
           "_name": "slider3",
           "_params": {
             "autoplay": false,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
             "timeout": "6",
             "slides": [
               {
@@ -146,7 +150,7 @@
                 "showTitle": true,
                 "title": "KAMA SUSHI",
                 "showText": true,
-                "text": "Historia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex sapien, porttitor a tincidunt at, vestibulum non nibh. Nulla dapibus rutrum pulvinar.",
+                "text": "Kama Sushi erbjuder traditionell restaurang såväl som take away för sina kunder mitt i hjärtat av Kalmar vid Stortorget. <br><br>Restaurangen är en renodlad sushirestaurang i japansk miljö som har funnits sedan år 2006. Maten är alltid baserad på de bästa råvarorna på den svenska råvarumarknaden och gästerna kommer från hela Sverige.<br>",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
               },
@@ -161,17 +165,25 @@
                 "showTitle": true,
                 "title": "KAMA SUSHI",
                 "showText": true,
-                "text": "Historia Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ex sapien, porttitor a tincidunt at, vestibulum non nibh. Nulla dapibus rutrum pulvinar.",
+                "text": "Kama Sushi erbjuder traditionell restaurang såväl som take away för sina kunder mitt i hjärtat av Kalmar vid Stortorget. \n<br>\n<br>Restaurangen är en renodlad sushirestaurang i japansk miljö som har funnits sedan år 2006. Maten är alltid baserad på de bästa råvarorna på den svenska råvarumarknaden och gästerna kommer från hela Sverige.",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
               }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
+            ]
           },
           "_anchor": "slider3-0",
-          "articleLayout": false
+          "articleLayout": false,
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "19px"
+            },
+            "H2": {
+              "font-size": "80px"
+            }
+          }
         },
         {
           "_tags": [
@@ -183,13 +195,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
             "overlay": true,
-            "overlayOpacity": 0.8,
             "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
             "googleMap": {
               "address": "Västra Sjögatan 13, 392 32 Kalmar",
               "placeId": "ChIJF0ApSWTRV0YR0vxXIh2GLZw",
