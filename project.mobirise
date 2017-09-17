@@ -123,7 +123,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://xibbe1.github.io/kamasushiweb1/\">TAKE AWAY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">RESTAURANG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-2\">KONTAKTA OSS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://xibbe1.github.io/kamasushiweb1/\">TAKE AWAY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://xibbe1.github.io/kamasushiweb3/\">RESTAURANG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-2\">KONTAKTA OSS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -152,7 +152,7 @@
                 "showText": true,
                 "text": "Kama Sushi erbjuder traditionell restaurang såväl som take away för sina kunder mitt i hjärtat av Kalmar vid Stortorget. <br><br>Restaurangen är en renodlad sushirestaurang i japansk miljö som har funnits sedan år 2006. Maten är alltid baserad på de bästa råvarorna på den svenska råvarumarknaden och gästerna kommer från hela Sverige.<br>",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb3/\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
               },
               {
                 "active": false,
@@ -167,7 +167,7 @@
                 "showText": true,
                 "text": "Kama Sushi erbjuder traditionell restaurang såväl som take away för sina kunder mitt i hjärtat av Kalmar vid Stortorget. \n<br>\n<br>Restaurangen är en renodlad sushirestaurang i japansk miljö som har funnits sedan år 2006. Maten är alltid baserad på de bästa råvarorna på den svenska råvarumarknaden och gästerna kommer från hela Sverige.",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb3/\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a>"
               }
             ]
           },
