@@ -22,10 +22,11 @@
       }
     },
     "versionFirst": "3.11.1",
-    "uniqCompNum": 5,
-    "versionPublish": "4.3.0",
+    "uniqCompNum": 11,
+    "versionPublish": "4.8.1",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteFonts": []
   },
   "pages": {
     "index.html": {
@@ -188,7 +189,7 @@
         {
           "_params": {
             "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingBottom": "4",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -198,19 +199,27 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8,
             "googleMap": {
-              "address": "Västra Sjögatan 13, 392 32 Kalmar",
-              "placeId": "ChIJF0ApSWTRV0YR0vxXIh2GLZw",
+              "address": "Storgatan 22 \nKalmar",
+              "placeId": "ChIJl8n2WmTRV0YRTmalqSF4ziM",
               "state": "ok",
               "stateDetails": ""
             }
           },
-          "text1": "<b>Take Away</b><br>Västra Sjögatan 13<br>Kalmar<br>0480-548 78<br><br><b>Restaurang</b><br>Storgatan 22\n<br>Kalmar\n<br>0480-100 26<br><br>Email: kamasushi@outlook.com<br>",
-          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b><br></b></span></font><ul><br></ul>",
+          "text1": "<b>Take Away</b><br>Västra Sjögatan 13<br>Kalmar<br>0480-548 78<br><br><b>Restaurang</b><br>Storgatan 22\n<br>Kalmar\n<br>0480-100 26<br><br><br>Email: kamasushi@outlook.com<br>",
+          "text2": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Öppettider&nbsp;</b></span></font><ul><p>Västra Sjögatan 13\n</p><p>Mån-Fre 11.00-20.30\n</p></ul><ul>Lör         12.00-20.30\n</ul><ul><p>Sön.      13.00-20.30</p><p><br></p><p><span style=\"font-size: 0.875rem;\">Storgatan 22</span></p><p>Mån-Fre   11.00-15\n.00</p><p>Mån-Fre   17.00-22\n.00</p><p>Lör            12.00-22.00</p></ul>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts2",
-          "_anchor": "contacts2-4"
+          "_styles": {
+            "UL": {
+              "font-size": "14px"
+            },
+            "SPAN": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "contacts2-5"
         }
       ]
     }

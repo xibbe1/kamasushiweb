@@ -410,7 +410,7 @@ h6,
   color: #c0a375;
 }
 .scrollToTop_wraper {
-  opacity: 0 !important;
+  display: none;
 }
 #ext_menu-1 .hide-buttons .nav-btn {
   display: none !important;
@@ -480,4 +480,10 @@ h6,
 }
 #slider3-0 H2 {
   font-size: 80px;
+}
+#contacts2-5 UL {
+  font-size: 14px;
+}
+#contacts2-5 SPAN {
+  color: #ffffff;
 }
