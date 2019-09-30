@@ -23,7 +23,7 @@
     },
     "versionFirst": "3.11.1",
     "uniqCompNum": 11,
-    "versionPublish": "4.8.1",
+    "versionPublish": "4.10.15",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "siteFonts": []
