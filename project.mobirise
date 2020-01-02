@@ -151,7 +151,7 @@
                 "showTitle": true,
                 "title": "KAMA SUSHI",
                 "showText": true,
-                "text": "Kama Sushi erbjuder traditionell restaurang såväl som take away för sina kunder mitt i hjärtat av Kalmar vid Stortorget. <br><br>Restaurangen är en renodlad sushirestaurang i japansk miljö som har funnits sedan år 2006. Maten är alltid baserad på de bästa råvarorna på den svenska råvarumarknaden och gästerna kommer från hela Sverige.<br>",
+                "text": "Kama Sushi erbjuder traditionell restaurang såväl som take away för sina kunder mitt i hjärtat av Kalmar vid Stortorget. <br><br>Vi har beslutat att stänga ner vietnamesiska restaurangen och tackar er stort för denna tiden! Hoppas vi ses på Kama sushi. Ni som har present kort kan använda hos Kama Sushi.<br>",
                 "showButtons": true,
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb1/\" data-toolbar=\"-mbrBtnMove\">TAKE AWAY</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://xibbe1.github.io/kamasushiweb3/\" data-toolbar=\"-mbrBtnMove\">RESTAURANG</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">Kama Sushi Giraffen</a> "
               },
